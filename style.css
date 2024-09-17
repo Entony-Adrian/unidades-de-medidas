@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.box {
+    padding: 20px;
+    border: 2px solid black;
+    width: 30%;
+}
+
+/* estilos usando unidades absolutas */
+.absoluto {
+    width: 300px;
+    /* Absoluto: largura fixa */
+    height: 200px;
+    /* absoluto: altura fixa */
+    font-size: 16px;
+    /* absoluto: tamanho da fonte fixo */
+    background-color: aquamarine;
+}
+
+/* Estilos usando unidades relativas */
+.relativo {
+
+    width: 50%;
+    /* relativo: largura depende do pai*/
+    height: 50vh;
+    /* relativo: altura depende da viewport  */
+    font-size: 2rem;
+    /* relativo: tamanho da fonte depende da raiz */
+    background-color: blueviolet;
+}
